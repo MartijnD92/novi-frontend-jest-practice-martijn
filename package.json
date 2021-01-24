@@ -1,18 +1,19 @@
 {
-  "name": "novi-frontend-jest-practice-martijn",
-  "version": "1.0.0",
-  "description": "Jest practice",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "jest",
-    "testing"
-  ],
-  "author": "Martijn Doensen",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^26.6.3"
-  }
+	"name": "novi-frontend-jest-practice-martijn",
+	"version": "1.0.0",
+	"description": "Jest practice",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx jest",
+		"test:watch": "npx jest --watch"
+	},
+	"keywords": [
+		"jest",
+		"testing"
+	],
+	"author": "Martijn Doensen",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^26.6.3"
+	}
 }
